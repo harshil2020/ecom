@@ -296,3 +296,78 @@ html,body{
     background-color: #6BB7BE;
     color: white;
 }
+
+.client{
+    margin: 0px 45px;
+    padding: 90px 15px;
+}
+
+.client-container{
+    margin: 0px 135px;
+    /* padding: 0px 15px; */
+    height: 430px;
+}
+
+.client-container h2{
+    text-transform: uppercase;
+    height: 45px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.client-content{
+    height: 335px;
+    margin-top: 0.5rem;
+}
+
+.client-1{
+    height: 100%;
+    margin: 0px 110px; 
+}
+
+.client-box{
+    margin: 45px;
+    padding: 35px 25px;
+    height: auto;
+    width: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+}
+
+.client-img{
+    height: 175px;
+    width: 175px;
+    margin-right: 25px;
+}
+
+.client-img img{
+    width: 100%;
+    border: 10px solid rgb(107, 183, 190);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.client-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.client-detail h6{
+    font-size: 20px;
+    color: rgb(107, 183, 190);
+    margin-bottom: 8px;
+}
+
+.client-detail p{
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+
+
+
